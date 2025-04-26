@@ -1,0 +1,16 @@
+{
+  "name": "sneakzone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fe": "pnpm --filter=client",
+    "be": "pnpm --filter=server",
+    "dev": "pnpm --parallel dev",
+    "lint": "biome check .",
+    "lint:fix": "biome check . --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
+}
